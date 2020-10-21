@@ -1,1 +1,1 @@
-# just html/css exercise 
+# just html/css/js exercise 
