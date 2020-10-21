@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    max-width: 980px;
+    margin: 5px auto;
+}
+
+.editor {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.editor > input {
+    height: 40px;
+    flex: 2 600px;
+    border: 2px solid #999;
+    font-size: 1.2rem;
+    box-shadow: 0 0 4px 1px #999 inset;
+}
+.submit {
+    height: 40px;
+    flex: 1 300px;
+}
+.content {
+    margin: 20px;
+}
+.item {
+    border: 1px solid #999;
+    margin-top: 5px;
+    border-radius: 5px;
+}
